@@ -60,3 +60,105 @@ header nav ul li:hover{
     cursor: pointer;   
     font-weight: bold;
 }
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.services .service-item{
+    flex-basis: 29%;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.service-item h3{
+    text-transform: uppercase;
+}
+
+.story{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.story h2{
+    font-size: 150%;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.story img{
+    padding: 50px 10px;
+}
+
+.story p{
+    color: gray;
+    font-size: 75%;
+}
+
+.b-i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container .work{
+    padding-bottom: 50px;
+}
+.work h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.work .brend-item{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   display: flex; 
+   flex-basis: 20%
+   
+}
+
+.container .subscribe{
+    padding: 50px 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    border: 10px;
+    border-color: #4d4d4d;
+}
+
+.subscribe button{
+    background-color: rgb(241, 241, 241);
+    color: #4d4d4d;
+    border-color: #4d4d4d;
+    border-radius: 50px;
+    padding: 10px 40px; 
+    text-transform: uppercase;
+    cursor: pointer;   
+    font-weight: bold;
+}
+
+.subscribe h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
