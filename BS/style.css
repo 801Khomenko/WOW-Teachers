@@ -1,0 +1,22 @@
+.container{
+    
+}
+
+.one{
+    background: red;
+
+}
+
+.two{
+    background: blue;
+
+}
+
+.three{
+    background: green;
+
+}
+
+.center{
+    margin: 0 auto!important ;
+}
