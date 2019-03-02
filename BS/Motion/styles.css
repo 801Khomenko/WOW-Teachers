@@ -20,7 +20,7 @@ nav ul .nav-link:hover{
 
 .header1{
     min-width: 100%;
-    background: #f56252;
+    background: #E84848;
 }
 
 .d-block{
@@ -43,7 +43,7 @@ h1, p{
 }
 
 .header-2{
-    background: #c94638;
+    background: #B03838;
 }
 
 .pt{
@@ -52,12 +52,12 @@ h1, p{
 }
 
 .full-w-1{
-    background: #232324;
+    background: #202020;
 }
 
 .full-w-1 h2{
     color: white;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .full-w-1 p{
@@ -69,4 +69,46 @@ h1, p{
 .creative .creative-item h3{
     color: white;
     padding-top: 10px;
+}
+
+
+/* Команда */
+.team{
+    background: #68B870;
+}
+
+.team h2{
+    color: white;
+    font-size: 50px;
+}
+
+.team p{
+    color: black;
+}
+
+.team .team-item{
+    padding-top: 10px;
+    margin: 30px;
+}
+
+.team .card-col{
+ 
+}
+
+.team .btn{
+    background:#68B870;
+    border: none;
+    width: 100%
+}
+
+.card-img-top{
+    border-radius: 50%;
+    border: 10px solid #72cd79;
+}
+
+.carusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
