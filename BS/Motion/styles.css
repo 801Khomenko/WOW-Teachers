@@ -183,6 +183,98 @@ h1, h2{
     justify-content: center;
 }
 
+.tarifs-2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
 .container .tarifs .tarif-item:nth-child(2) h3{
     color: #eb4f4e;
+}
+
+.container .tarifs-2 .tarif-item{
+    background: white;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-size: 50px;
+}
+
+.container .tarifs-2 .tarif-item p{
+    border-top: 1px solid lightgrey;   
+}
+
+.container .tarifs-2 .tarif-item .order{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container .tarifs-2 .tarif-item .order button{
+    height: 50px;
+    width: 100px;
+    font-size: 50%
+}
+
+.pend{
+    padding: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.full-w-6{
+    background-color: rgb(221, 60, 60);
+}
+
+.container .carousel-inner .carousel-item i{
+    display: flex;
+    justify-content: center;
+}
+
+.container .carousel-inner .carousel-item .text .wh{
+    color: white;
+}
+
+.container .carousel-inner .carousel-item .text a{
+    color: black;
+}
+
+.container .carousel-inner .carousel-item .text{
+    display: flex;
+    justify-content: center;
+}
+
+.niz{
+    background-color: black;
+}
+
+.container .sulka p{
+    color: white;
+}
+
+.container .sulka a{
+    color: rgb(221, 60, 60)
+}
+
+.container .sulka i{
+    align-content: flex-end;
+    background-color: white;
+    color: rgb(221, 60, 60);
+}
+
+.carta{
+    background-image: url(img/map.png);
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.600);
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .contact a{
+    color: rgb(221, 60, 60);
 }
