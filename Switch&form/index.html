@@ -97,7 +97,18 @@
 <div id="modal_form"> 
       <span id="modal_close">X</span> 
       <form>
-          
+           <label for="name">Введіть своє ім'я</label><br>
+           <input type="text" class="form-control" id="name" placeholder="Your name"><br>
+           <label for="email">Введіть своє ім'я</label><br>
+           <input type="text" class="form-control" id="email" placeholder="Your email"><br>
+           <label for="pay">Спосіб оплати</label>
+           <label for="on">Онлайн</label>
+           <input type="radio" id="pay" name="pay" value="online">
+           <label for="off">При отриманні</label>
+           <input type="radio" id="pay" name="pay" value="offline">
+           <label for="sub">Підтверджую</label>
+           <input type="checkbox" id="sub">
+           <input type="button" value="Підтвердити замовлення">
       </form>
 </div>
 <div id="overlay"></div>
